@@ -7,10 +7,6 @@ import requests
 
 def post(request):
 
-    if request.method == "POST":
-        return JsonResponse({'foo': 'bar'})
-        word = "post"
 
-    else:
-        word = "hello"
-    return render(request, 'use/main.html', {'word': word})
+    return JsonResponse({'foo': 'bar'})
+
