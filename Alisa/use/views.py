@@ -16,5 +16,4 @@ def post(request):
 
     else:
         word = "hello"
-        
     return render(request, 'use/main.html', {'word': word})
