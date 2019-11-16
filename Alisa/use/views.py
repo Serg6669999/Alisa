@@ -1,6 +1,6 @@
 from django.utils.http import is_safe_url, urlunquote
 from django.shortcuts import render
-from Alisa.use.api import main
+from .api import main
 import requests
 
 
