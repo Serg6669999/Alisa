@@ -3,5 +3,5 @@ from . import views
 from . import api
 
 urlpatterns = [
-    path('', api.main, name='main'),
+    path('', views.post, name='main'),
 ]

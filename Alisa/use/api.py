@@ -21,6 +21,7 @@ sessionStorage = {}
 
 def main():
 # Функция получает тело запроса и возвращает ответ.
+    referrer = request.headers.get("Referer")
     logging.info('Request: %r', request.json)
 
     response = {
