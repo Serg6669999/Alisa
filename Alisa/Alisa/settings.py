@@ -72,7 +72,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'Alisa.wsgi.application'
+'''WSGI_APPLICATION = 'Alisa.wsgi.application'''''
 
 
 # Database
